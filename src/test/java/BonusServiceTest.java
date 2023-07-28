@@ -83,6 +83,7 @@ public class BonusServiceTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     void shouldCalculateForUnRegisteredAndOverLimit499() {
         BonusService service = new BonusService();
